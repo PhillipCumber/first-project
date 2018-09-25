@@ -1,0 +1,912 @@
+/* ima make all my a tags universal i want them all to have same effect */
+
+a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+a:hover {
+    color: red;
+}
+
+#hometop {
+    border: solid;
+    border-width: 30px;
+    border-radius: 30px;
+    border-color: darkblue;
+    box-shadow: 5px 5px 5px 5px white;
+    border-style: groove;
+}
+
+#homename {
+    text-shadow: 4px 4px white;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 30px;
+    border-bottom: solid;
+    /* border-color: darkcyan; */
+    border-width: 6px;
+    color: darkblue;
+    
+}
+
+#hometitlepic {
+
+    margin-left: 200px;
+    height: 300px;
+    width: 400px;
+}
+
+
+#hometitlepic2 {
+    margin-left: 50px;
+    height: 350px;
+    width: 350px;
+}
+
+/* this is the navbar for all pages */
+
+.navbar {
+    display: flex;
+    border: solid;
+    margin-top: 30px;
+    height: 80px;
+    border-style: groove;
+    border-radius: 40px;
+    border-color: darkblue;
+    border-width: 10px;
+    box-shadow: 5px 5px white;
+    
+}
+
+.nav {
+
+    height: 0px;
+    width: 495px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 25px;
+    /* color: darkcyan; */
+   
+}
+
+
+/* ths css for my slideshow */
+
+#slide {
+
+    height: 520px;
+    width: 850px;
+    margin-left: 250px;
+    margin-top: 50px;
+    border-radius: 30px;
+    border-style: groove;
+    border: solid;
+    border-color: darkblue;
+    box-shadow: 5px 5px white;
+
+}
+
+.slidepic {
+    margin-top: 5px;
+    margin-left: 30px;
+    height: 500px;
+    width: 800px;
+    border-radius: 30px;
+    /* border-width: 7px; */
+    border-style: groove;
+   
+}
+
+#vidshad {
+    border: solid;
+    border-style: groove;
+    border-width: 4px;
+    box-shadow: 4px 4px darkblue;;
+}
+
+.hometext {
+    height: 450px;
+    width: 1300px;
+    margin-top: 70px;
+    background-color: black;
+    border: solid;
+    border-color: darkblue;
+    border-style: groove;
+    border-width: 4px;
+    box-shadow: 4px 4px white;
+    border-radius: 30px;
+
+}
+
+#hometextinner {
+    color: whitesmoke;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 5px 5px darkblue;
+}
+
+.homevid {
+
+    margin-top: 80px;
+    margin-left: 400px;
+}
+
+/* this starts my second page the hunter */
+
+#huntertop {
+    border: solid;
+    border-width: 30px;
+    border-radius: 30px;
+    border-color: darkred;
+    border-style: ridge;
+    box-shadow: 4px 4px darkblue;
+    /* background-color: blue; */
+}
+
+#huntername {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 30px;
+    border-bottom: solid;
+    border-color: red;
+    border-width: 6px;
+    color: darkred;
+    text-shadow: 4px 4px darkblue;
+    
+}
+
+#huntertitlepic {
+    height: 350px;
+    width: 400px;
+    margin-left: 200px;
+}
+
+#huntertitlepic2 {
+    margin-left: 50px;
+    height: 350px;
+    width: 350px;
+}
+
+/* this the navbar for page 2 (hunter) */
+.navbar2 {
+    display: flex;
+    border: solid;
+    margin-top: 30px;
+    height: 80px;
+    border-radius: 40px;
+    border-color: red;
+    border-width: 10px;
+    border-style: ridge;
+    box-shadow: 4px 4px darkblue;
+    
+}
+
+.nav2 {
+
+    height: 0px;
+    width: 495px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 25px;
+    /* color: darkcyan; */
+   
+}
+
+.hunterdesc {
+    display: flex;
+    margin-top: 100px;
+    height: 600px;
+    width: 1300px;
+    background-color: darkred;
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 40px;
+    box-shadow: 4px 4px darkblue;
+}
+
+#hunterpic2 {
+
+    height: 550px;
+    width: 400px;
+    
+}
+
+#huntaboutouter {
+    margin-top: 40px;
+}
+
+#hunterabout {
+    background-color: black;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 4px 4px darkred;
+    margin-left: 50px;
+    border-style: ridge;
+    border-radius: 20px;
+    border-width: 5px;
+    box-shadow: 4px 4px black;
+}
+
+#linesep {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px darkred;
+    border-style: ridge;
+    border-width: 4px;
+    border-radius: 30px;
+    border-color: darkred;
+    background-color: black;
+}
+
+.hunterweapons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.hunterguns {
+
+    height: 300px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+#lastword {
+    border-style: groove;
+    border-width: 5px;
+    box-shadow: 4px 4px darkblue;
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px darkred;
+}
+
+/* this is the start of the third page (warlocks) */
+
+#warlocktop {
+    border: solid;
+    border-width: 30px;
+    border-radius: 30px;
+    border-color: purple;
+    border-style: groove;
+    box-shadow: 15px 15px black;
+}
+
+#warlockname {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 30px;
+    border-bottom: solid;
+    border-color: purple;
+    border-width: 6px;
+    color: purple;
+    text-shadow: 4px 4px black;
+    
+}
+#warlocktitlepic {
+    height: 400px;
+    width: 300px;
+    margin-left: 200px;
+}
+
+#warlocktitlepic2 {
+    margin-left: 50px;
+    height: 350px;
+    width: 350px;
+}
+
+
+/* this the navbar for third page */
+
+.navbar3 {
+    /* margin-top: 40px; */
+    display: flex;
+    border: solid;
+    margin-top: 30px;
+    height: 80px;
+    border-radius: 40px;
+    border-color: purple;
+    border-width: 10px;
+    box-shadow: 9px 9px black;
+    
+}
+
+.nav3 {
+    /* margin-top: 40px; */
+    height: 0px;
+    width: 495px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 25px;
+   
+   
+}
+
+.warlockdesc {
+    margin-top: 50px;
+    display: flex;
+    border-style: ridge;
+    border-width: 15px;
+    border-color: purple;
+    border-radius: 40px;
+    box-shadow: 8px 8px black;
+}
+
+#warlockpic2 {
+    margin-left: 50px;
+    height: 600px;
+    width: 650px;
+}
+
+#warlockabout {
+    text-shadow: 4px 4px purple;
+    color: white;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: ridge;
+    border-width: 6px;
+    background-color: black;
+}
+
+#rifles {
+    background-color: black;
+    text-shadow: 3px 3px purple;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    border-style: groove;
+    border-width: 14px;
+    border-color: purple;
+    box-shadow: 5px 5px black;
+}
+
+.warlockweapons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.riflepic {
+    height: 300px;
+    width: 450px;
+    border-radius: 30px;
+}
+
+#rifleabout {
+    text-shadow: 3px 3px purple;
+    border-style: ridge;
+    border-width: 8px;
+    border-color: purple;
+    box-shadow: 4px 4px black;
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* this is the start of page 4 (titan) */
+
+#titantop {
+    border-style: groove;
+    border-width: 30px;
+    border-radius: 30px;
+    border-color: darkgreen;
+    box-shadow: 15px 15px black;
+
+}
+
+#titanname {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 30px;
+    border-bottom: solid;
+    border-color: green;
+    border-width: 6px;
+    color: black;
+    text-shadow: 4px 4px darkgreen;
+    
+}
+
+#titantitlepic {
+    height: 350px;
+    width: 400px;
+    margin-left: 200px;
+}
+
+#titantitlepic2 {
+    margin-left: 100px;
+    height: 350px;
+    width: 350px;
+}
+
+/* navbar for page 4 */
+
+.navbar4 {
+    display: flex;
+    border-style: groove;
+    margin-top: 30px;
+    height: 80px;
+    border-radius: 40px;
+    border-color: green;
+    border-width: 10px;
+    box-shadow: 5px 5px black;
+
+    
+}
+
+.nav4 {
+
+    height: 0px;
+    width: 495px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 25px;
+   
+   
+}
+
+.titandesc {
+    display: flex;
+    margin-top: 50px;
+    border-style: groove;
+    border-color: darkgreen;
+    border-width: 8px;
+    box-shadow: 4px 4px black;
+    border-radius: 40px;
+}
+
+#titanpic2 {
+    height: 500px;
+    width: 600px;
+    border-radius: 40px;
+}
+
+#titanabout {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 4px 4px darkgreen;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-style: groove;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.titanweapons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.shottypic {
+    height: 300px;
+    width: 350px;
+    border-radius: 30px;
+}
+
+#shottyabout {
+    margin-top: 50px;
+    color: white;
+    text-shadow: 4px 4px darkgreen;
+    border-style: groove;
+    border-width: 5px;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.linesep2 {
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px darkgreen;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 30px;
+    background-color: black
+}
+
+/* this is the start of page 5 (dead orbit) */
+
+#orbittop {
+    border-style: ridge;
+    border-width: 30px;
+    border-radius: 30px;
+    border-color: black;
+    box-shadow: 15px 15px white;
+
+}
+
+#orbitname {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 30px;
+    border-bottom: solid;
+    border-color: white;
+    border-width: 6px;
+    color: black;
+    text-shadow: 4px 4px white;
+    
+}
+
+#orbittitlepic {
+    height: 350px;
+    width: 400px;
+    margin-left: 200px;
+}
+
+#orbittitlepic2 {
+    margin-left: 100px;
+    height: 350px;
+    width: 350px;
+}
+
+/* page 5 navbar */
+
+.navbar5 {
+    display: flex;
+    border: solid;
+    margin-top: 30px;
+    height: 80px;
+    border-radius: 40px;
+    border-color: black;
+    box-shadow: 15px 15px white;
+    border-width: 10px;
+    
+}
+
+.nav5 {
+
+    height: 0px;
+    width: 495px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 25px;
+   
+   
+}
+
+.orbitdesc {
+
+    margin-top: 40px;
+    display: flex;
+    border-style: groove;
+    border-width: 15px;
+    border-color: black;
+    border-radius: 30px;
+    box-shadow: 15px 15px white;
+}
+
+#orbitpic2 {
+
+    height: 800px;
+    width: 500px;
+}
+
+#orbitabout {
+    margin-top: 100px;
+}
+
+#orbitabout {
+    border-style: groove;
+    border-width: 4px;
+    border-radius: 20px;
+    border-color: black;
+    box-shadow: 5px 5px white;
+    /* background-color: black; */
+    color: black;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 5px 5px white;
+}
+
+.orbitweapon {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+    
+}
+
+.orbitinpic {
+    height: 300px;
+    width: 350px;
+    border-radius: 30px;
+}
+
+.orbitinfo {
+    margin-top: 40px;
+    border-style: ridge;
+    border-radius: 30px;
+    border-width: 15px;
+    border-color: black;
+    box-shadow: 5px 5px white;
+}
+
+#orbittext {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-shadow: 4px 4px white;
+}
+
+
+/* this is the start of page 6 */
+
+#wartop {
+    border-style: ridge;
+    border-width: 30px;
+    border-radius: 30px;
+    border-color: darkgoldenrod;
+    box-shadow: 15px 15px purple;
+    
+}
+
+#warname {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 30px;
+    border-bottom: solid;
+    border-color: red;
+    border-width: 6px;
+    color: darkgoldenrod;
+    text-shadow: 4px 4px purple;
+    
+}
+
+#wartitlepic {
+    height: 350px;
+    width: 400px;
+    margin-left: 200px;
+}
+
+#wartitlepic2 {
+    margin-left: 50px;
+    height: 350px;
+    width: 350px;
+}
+
+
+.navbar6 {
+    display: flex;
+    border-style: ridge;
+    margin-top: 30px;
+    height: 80px;
+    border-radius: 40px;
+    border-color: darkgoldenrod;
+    border-width: 10px;
+    box-shadow: 10px 10px purple;
+    
+    
+}
+
+.nav6 {
+
+    height: 0px;
+    width: 495px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 25px;
+   
+   
+}
+
+.fwcdesc {
+
+    margin-top: 40px;
+    display: flex;
+    border-style: groove;
+    border-width: 15px;
+    border-color: darkgoldenrod;
+    border-radius: 30px;
+    box-shadow: 15px 15px purple;
+}
+
+#fwcpic2 {
+
+    height: 800px;
+    width: 500px;
+}
+
+#fwcout {
+    margin-top: 100px;
+}
+
+#fwcabout {
+    border-style: groove;
+    border-width: 4px;
+    border-radius: 20px;
+    border-color: darkgoldenrod;
+    box-shadow: 5px 5px purple;
+    /* background-color: black; */
+    color: darkgoldenrod;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 5px 5px purple;
+}
+
+.fwcweapon {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+    
+}
+
+.fwcinpic {
+    height: 300px;
+    width: 350px;
+    border-radius: 30px;
+}
+
+.fwcinfo {
+    margin-top: 40px;
+    border-style: ridge;
+    border-radius: 30px;
+    border-width: 15px;
+    border-color: darkgoldenrod;
+    box-shadow: 5px 5px purple;
+}
+
+#fwctext {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgoldenrod;
+    text-shadow: 4px 4px purple;
+}
+
+
+
+
+
+
+
+
+/* this is the start of page 7 (new monarchy) */
+
+#montop {
+    border: solid;
+    border-width: 30px;
+    border-radius: 30px;
+    border-color: white;
+    box-shadow: 15px 15px red;
+}
+
+#monname {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 30px;
+    border-bottom: solid;
+    border-color: red;
+    border-width: 6px;
+    color: white;
+    text-shadow: 6px 5px red;
+    
+}
+
+#montitlepic {
+    height: 350px;
+    width: 400px;
+    margin-left: 200px;
+}
+
+#montitlepic2 {
+    margin-left: 50px;
+    height: 350px;
+    width: 350px;
+}
+
+
+
+.navbar7 {
+    display: flex;
+    border-style: ridge;
+    margin-top: 30px;
+    height: 80px;
+    border-radius: 40px;
+    border-color: white;
+    box-shadow: 10px 10px red;
+    border-width: 10px;
+    
+    
+}
+
+.nav7 {
+
+    height: 0px;
+    width: 495px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 25px;
+   
+   
+}
+
+.newdesc {
+
+    margin-top: 40px;
+    display: flex;
+    border-style: groove;
+    border-width: 15px;
+    border-color: white;
+    border-radius: 30px;
+    box-shadow: 15px 15px red;
+}
+
+#newpic2 {
+
+    height: 800px;
+    width: 500px;
+}
+
+#newout {
+    margin-top: 100px;
+}
+
+#newabout {
+    border-style: groove;
+    border-width: 4px;
+    border-radius: 20px;
+    border-color: white;
+    box-shadow: 5px 5px red;
+    /* background-color: black; */
+    color: white;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 5px 5px red;
+}
+
+.newweapon {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+    
+}
+
+.newinpic {
+    height: 300px;
+    width: 350px;
+    border-radius: 30px;
+}
+
+.newinfo {
+    margin-top: 40px;
+    border-style: ridge;
+    border-radius: 30px;
+    border-width: 15px;
+    border-color: white;
+    box-shadow: 5px 5px red;
+}
+
+#newtext {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 4px 4px red;
+}
